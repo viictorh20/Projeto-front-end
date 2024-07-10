@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>VH-HOME</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="css/indexboodstrap.css" rel="stylesheet">
+  <link rel="shortcut icon" type="imagem/png" href="img/icoviagem.ico.ico">
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</head>
+
+<body>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="#" href="index.html">VH FLIGHT</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="2hospedagem.html">Hospedagem</a></li>
+          <li><a href="3viagens.html">Viagens</a></li>
+          <li><a href="4pacotes.html">Pacotes</a></li>
+          <li><a href="5contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="titulo">
+      <h1 id="t1">VH FLIGHT</h1>
+      <p id="p1">Transforme sonhos em destinos</p>
+    </div>
+  
+
+  <br>
+  <br>
+  <div class="container">
+    <div class="roww">
+      <div class="col-md-4 form-group">
+        <label for="origem">Origem</label>
+        <input type="text" class="form-control" id="origem" name="Origem" placeholder="Origem">
+      </div>
+      <div class="col-md-4 form-group">
+        <label for="origem">Destino</label>
+        <input type="text" class="form-control" id="destino" name="Destino" placeholder="Destino">
+      </div>
+
+      <div id="date">
+        <label for="date"></label>
+        <input type="date" id="date" name="date">
+        <button class="btn btn-primary botaoenviar">Buscar</button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <br>
+  <br>
+  <div class="container text-center">
+    <h3></h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="image-container">
+          <img src="img/imgrjhdcristo.jpg" class="img-responsive" alt="Imagem do cristo">
+        </div>
+        <h3>Rio de Janeiro</h3>
+        <p>A Cidade Maravilhosa encanta com suas praias icônicas, paisagens naturais deslumbrantes, 
+          Cristo Redentor e o vibrante Carnaval.</p>
+        <a href="3viagens.html"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Saiba
+            mais</button></a>
+      </div>
+      <div class="col-sm-4">
+        <div class="image-container">
+          <img src="img/imgaracaju.jpg" class="img-responsive" alt="Aracaju">
+        </div>
+        <h3>Aracaju</h3>
+        <p>A capital sergipana, oferece tranquilidade com suas praias serenas, culinária deliciosa e um charme
+          acolhedor.</p>
+        <a href="3viagens.html"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Saiba
+            mais</button></a>
+      </div>
+      <div class="col-sm-4">
+        <div class="image-container">
+          <img src="img/imgmaceio.jpg" class="img-responsive" alt="Maceió">
+        </div>
+        <h3>Maceió</h3>
+        <p>Um paraíso tropical com águas cristalinas, piscinas naturais e uma rica cultura nordestina que cativa os
+          visitantes.</p>
+        <a href="3viagens.html"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Saiba
+            mais</button></a>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <div class="col-sm-4">
+      <div class="image-container">
+        <img src="img/imgrecife.jpg" class="img-responsive" alt="Recife">
+      </div>
+      <h3>Recife</h3>
+      <p>Recife é um destino turístico popular, com praias belíssimas como Boa Viagem,
+        mercados tradicionais como o Mercado de São José, e atrações culturais.</p>
+      <a href="3viagens.html"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Saiba
+          mais</button></a>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="image-container">
+        <img src="img/imgfloripa.jpg" class="img-responsive" alt="Petrolina">
+      </div>
+      <h3>Florianópolis</h3>
+      <p>Também conhecida como "Ilha da Magia",  
+       a cidade é famosa por sua beleza natural, praias paradisíacas e qualidade de vida.</p>
+      <a href="3viagens.html"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Saiba
+          mais</button></a>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="image-container">
+        <img src="img/imgfortal.jpg" class="img-responsive" alt="Fortaleza">
+      </div>
+      <h3>Fortaleza</h3>
+      <p>Famosa por suas praias urbanas, como a Praia do Futuro, e conhecida por suas barracas que oferecem uma
+        infraestrutura completa com restaurantes.</p>
+      <a href="3viagens.html"><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Saiba
+          mais</button></a>
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="col-sm-12 text-center">
+    <a href="3viagens.html"><button type="button" id="botao-vejatodos" class="btn btn-primary">Veja todos os
+        destinos</button></a>
+  </div>
+  </div>
+  <br>
+  <div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <footer class="container-fluid text-center">
+    <p>Todos os direitos reservados a VH FLIGHT &copy;</p>
+  </footer>
+
+</body>
+
+</html>
+<!--<div id="passagens-aereas">
+<button><h3>Ida e Volta</h3></button>
+
+      <div class="item">
+        <img src="img/imgrj.jpg" alt="Rio de Janeiro">
+          <h3>Rio de Janeiro</h3>
+          <p>Conhecida como a Cidade Maravilhosa, o Rio de Janeiro encanta com suas praias icônicas, o Cristo Redentor
+            e o vibrante Carnaval.</p>
+        </div>      
+      </div>
+    </div>
+</div>
+<div class="item">
+    <img src="img/imgaracaju.jpg" alt="Aracaju">
+      <h3>Rio de Janeiro</h3>
+      <p>A capital sergipana, Aracaju, oferece tranquilidade com suas praias serenas, culinária deliciosa e um
+        charme acolhedor.</p>
+    </div>
+    <div class="item">
+        <img src="img/imgmaceio.jpg" alt="Maceió">
+          <h3>Rio de Janeiro</h3>
+          <p>Conhecida como a Cidade Maravilhosa, o Rio de Janeiro encanta com suas praias icônicas, o Cristo Redentor
+            e o vibrante Carnaval.</p>
+        </div>      
+      
+      
+      
+      <label class="origemedestino">
+        Origem<input type="destino">
+        </label>-->
